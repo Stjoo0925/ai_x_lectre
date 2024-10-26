@@ -1,2 +1,11 @@
-# ai_x_lectre
-ai_x_lectre
+# AI-X Lecture
++ Date : 24.10.26
+
+### ```Mentor```
+> 정기수 <br />
+> AI Team at WantedLab
+
+### Lecture 1.0
+
+
+
