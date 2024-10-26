@@ -59,10 +59,24 @@ image = mp.Image.create_from_file('burger.jpg')
 
 # STEP 4: Classify the input image.
 classification_result = classifier.classify(image)
-print(classification_result)
+# print(classification_result)
+
+# [example]
+# ClassificationResult(
+#   classifications=[
+#     Classifications(
+#       categories=[
+#         Category(index=933, score=0.9790240526199341, display_name='', category_name='cheeseburger'), 
+#         Category(index=931, score=0.0008637145510874689, display_name='', category_name='bagel'), 
+#         Category(index=947, score=0.0005722717614844441, display_name='', category_name='mushroom')
+#       ], 
+#       head_index=0, 
+#       head_name='probability'
+#     )
+#   ], 
+#   timestamp_ms=0
+# )
 
 # STEP 5: Process the classification result. In this case, visualize it.
-# images.append(image)
-# top_category = classification_result.classifications[0].categories[0]
-# predictions.append(f"{top_category.category_name} ({top_category.score:.2f})")
-
+top_category = classification_result.classifications[0].categories[0]
+print(f"{top_category.category_name} ({top_category.score:.2f})")
