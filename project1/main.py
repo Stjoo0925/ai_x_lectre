@@ -1,3 +1,5 @@
+import numpy
+
 print("hello world")
 
 # 가상환경 목록 조회
