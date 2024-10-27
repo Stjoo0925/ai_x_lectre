@@ -51,7 +51,7 @@ def visualize(
 
 # Download test image
 
-IMAGE_FILE = 'road2.jpg'
+IMAGE_FILE = 'image/road2.jpg'
 
 import cv2
 # from google.colab.patches import cv2_imshow

@@ -10,7 +10,7 @@
 
 # import urllib.request
 
-IMAGE_FILENAMES = ['burger.jpg', 'cat.jpg']
+IMAGE_FILENAMES = ['image/burger.jpg', 'image/cat.jpg']
 
 # for name in IMAGE_FILENAMES:
 #   url = f'https://storage.googleapis.com/mediapipe-tasks/image_classifier/{name}'
