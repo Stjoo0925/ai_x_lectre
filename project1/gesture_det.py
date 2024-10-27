@@ -86,16 +86,16 @@ def resize_and_show(image, scale=0.5):
 
 # Download test images
 
-IMAGE_FILENAMES = ['thumbs_down.jpg', 'victory.jpg', 'thumbs_up.jpg', 'pointing_up.jpg']
-for name in IMAGE_FILENAMES:
-    url = f'https://storage.googleapis.com/mediapipe-tasks/gesture_recognizer/{name}'
-    urllib.request.urlretrieve(url, name)
+IMAGE_FILENAMES = ['image\\thumbs_down.jpg', 'image\\victory.jpg', 'image\\thumbs_up.jpg', 'image\\pointing_up.jpg']
+# for name in IMAGE_FILENAMES:
+#     url = f'https://storage.googleapis.com/mediapipe-tasks/gesture_recognizer/{name}'
+#     urllib.request.urlretrieve(url, name)
 
-# Preview the images
-images = {name: cv2.imread(name) for name in IMAGE_FILENAMES}
-for name, image in images.items():
-    print(name)
-    resize_and_show(image)
+# # Preview the images
+# images = {name: cv2.imread(name) for name in IMAGE_FILENAMES}
+# for name, image in images.items():
+#     print(name)
+#     resize_and_show(image)
 
 # Running inference and visualizing the results
 
