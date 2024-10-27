@@ -15,3 +15,5 @@
 [huggingface](https://huggingface.co/) - open source package
 
 [Sentence Transformers](https://sbert.net/) - pip install -U sentence-transformers
+
+[FastAPI](https://fastapi.tiangolo.com/) - published on the web
