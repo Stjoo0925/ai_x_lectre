@@ -16,3 +16,4 @@ result = classifier(text)
 
 # STEP 5 : post processing
 print(result)
+# [{'label': 'negative', 'score': 0.9698401093482971}]

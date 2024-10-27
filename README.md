@@ -2,6 +2,7 @@
 
 + [24.10.26](https://github.com/Stjoo0925/ai_x_lecture/blob/main/lecture/24.10.16-1.md) - 첫 번째 강의 
 + [24.10.26](https://github.com/Stjoo0925/ai_x_lectre/blob/main/lecture/24.10.16-2.md) - 두 번째 강의
++ [24.10.27](https://github.com/Stjoo0925/ai_x_lecture/blob/main/lecture/24.10.17.md) - 세 번째 강의
 
 [conda-forge](https://conda-forge.org/) - Python framework
 
