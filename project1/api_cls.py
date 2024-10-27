@@ -113,20 +113,20 @@ app = FastAPI()
 async def create_upload_file(file: UploadFile):
     contents = await file.read()
 
-# STEP 3: Load the input image.
-binary = np.fromstring(contents, dtype=np.uint8)
-cv_mat = cv2.imdecode(binary, cv2.IMREAD_COLOR)
-rgb_frame = mp.Image(image_format=mp.ImageFormat.SRGB, data=cv_mat)
+    # STEP 3: Load the input image.
+    binary = np.fromstring(contents, dtype=np.uint8)
+    cv_mat = cv2.imdecode(binary, cv2.IMREAD_COLOR)
+    rgb_frame = mp.Image(image_format=mp.ImageFormat.SRGB, data=cv_mat)
 
-# STEP 4: Classify the input image.
-classification_result = classifier.classify(rgb_frame)
+    # STEP 4: Classify the input image.
+    classification_result = classifier.classify(rgb_frame)
 
-# STEP 5: Process the classification result. In this case, visualize it.
-top_category = classification_result.classifications[0].categories[0]
-print(f"{top_category.category_name} ({top_category.score:.2f})")
+    # STEP 5: Process the classification result. In this case, visualize it.
+    top_category = classification_result.classifications[0].categories[0]
+    print(f"{top_category.category_name} ({top_category.score:.2f})")
 
-return {"category": top_category.category_name,
-        "score": f"{top_category.score:.2f}"}
+    return {"category": top_category.category_name,
+            "score": f"{top_category.score:.2f}"}
 
-$ fastapi dev api_cls.py
+# $ fastapi dev api_cls.py
 """
