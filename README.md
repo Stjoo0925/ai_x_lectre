@@ -9,3 +9,9 @@
 [conda-forge-github](https://github.com/conda-forge/miniforge?tab=readme-ov-file) - Python framework git repo
 
 [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide) - google task
+
+[pytorch](https://pytorch.org/) - python framework
+
+[huggingface](https://huggingface.co/) - open source package
+
+[Sentence Transformers](https://sbert.net/) - pip install -U sentence-transformers
