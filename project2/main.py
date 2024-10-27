@@ -23,7 +23,10 @@
 # -- 개념설명 --
 
 # 임베딩 [Embedding]
-    # 데이터 입력 > 모델로 처리 > 숫자의 집합으로 변환
+    # 데이터 입력 > 모델로 처리 > 숫자의 집합으로 변환 
     # 변환된 숫자들은 고유한 차원의 개념을 가짐
     # 따라서 각 데이터들의 유사도를 바탕으로 각종 로직을 구성할수 있음
     # https://platform.openai.com/docs/models/embeddings - 임베딩 예제
+    # 기법은 다양하지만 표현방식은 동일하다 - 텍스트, 이미지, 음성 등등
+    # 임베딩은 벡터[vector]라고도 한다 - https://arxiv.org/abs/2202.03555
+    # 예제 OpenAI CLIP - https://openai.com/index/clip/
