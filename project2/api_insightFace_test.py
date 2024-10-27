@@ -1,7 +1,6 @@
 # pip install "fastapi[standard]"
 
 # STEP 1 : import modules
-# import argparse
 from fastapi import FastAPI, UploadFile
 import cv2
 import numpy as np
