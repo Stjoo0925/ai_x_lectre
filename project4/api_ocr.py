@@ -8,7 +8,6 @@ from fastapi import FastAPI, UploadFile
 import easyocr
 import cv2
 import numpy as np
-import mediapipe as mp
 
 # STEP 2: Create an ImageClassifier object.
 reader = easyocr.Reader(['ch_sim','en'])
